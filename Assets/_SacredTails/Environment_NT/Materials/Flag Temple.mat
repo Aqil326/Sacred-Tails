@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Flag Temple
+  m_Shader: {fileID: -6465566751694194690, guid: c36849f1b5dd1714bb59879fb4cbb3c9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_6b34e8cbee194e7d97efbed7575e4782:
+        m_Texture: {fileID: 2800000, guid: 1ec97f8cb7e02f24a91be3ea63a6cda4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2604d01cc3725954b8d4616c3df6a1f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_22380fcb66f94c02806fdea6a15b9dbc: 0.13
+    - Vector1_498340ad54ca41aa8b608cc96ac8a3ad: 10
+    - Vector1_5391aff5192c446f929058d5b754b416: 4.67
+    - Vector1_56f1c8b6dc274a9d8026ef7e518ab861: 0.148
+    - Vector1_70dcea36d51142fda6cc16f0c37498d5: 0
+    - Vector1_9f049c40db1f4e588697ac22034a6bca: 1.54
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Vector4_f138b370b6f348799fdce8ae9dc5db5d: {r: 1, g: 5.3, b: -0.03, a: -1.07}
+    - Vector4_f65420eed02f43c4a05d982a837ce6bb: {r: 5, g: 5, b: 0, a: 0}
+    - _Color: {r: 0.509434, g: 0.053274136, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &2728490979438037528
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e50181fa899294f847a32fb983bf4e, type: 3}
+  m_Name: AC-DC
+  m_EditorClassIdentifier: 
+  cardType: 9
+  BattleActions:
+  - actionType: 10
+    perTurns: 1
+    turnsDuration: 2
+    amount: 100
+    isSelfInflicted: 0
+    cardSkipTurn: 1
+    bonusPercent: 0
+    statBonusDamage: 0
+    applyEachTurn: 0
+    isBuff: 0
+    isPercertange: 1
+    statToModify: 0
+    numberOfTimesBuffApplied: 0
+    changeMinAndMaxStats: 1
+    stat1: 0
+    stat2: 0
+    typeOfTerrain: 0
+    alteredState: 0
+    activateAlteredState: 0
+    alteredStateToActivate: 0
+    criticsPercentChange: 0
+    actionElementType: 9
+    criticsRoll: 0
+    evadeRoll: 0
+    turnsPassed: 0
+    evadedTurns: 0
+  Description: '[Random]STAT SWAP[End] opponent''s highest value stat with their
+    lowest for 2 turns.'
+  DisplayNotification: "Magnetized current has been discharged\r"
+  VfxIndex: 1
+  vfxAffectBoth: 0
+  casterAnimation: 13
+  targetAnimation: 9
+  isComingFromCopyIndex: -1
+  cardImage: {fileID: 21300000, guid: ba996f73badf335458aacbccd85d804b, type: 3}
+  PpCost: 70
+  BattleAction:
+  - '{"actionType":10,"turnsDuration":2,"amount":100,"isSelfInflicted":false,"cardSkipTurn":true,"bonusPercent":0.0,"applyEachTurn":false,"isPercertange":true,"numberOfTimesBuffApplied":0,"changeMinAndMaxStats":true,"stat1":0,"stat2":0,"activateAlteredState":false,"alteredStateToActivate":0,"criticsPercentChange":0,"actionElementType":9,"criticsRoll":0.0,"evadeRoll":0.0,"turnsPassed":0,"evadedTurns":0}'

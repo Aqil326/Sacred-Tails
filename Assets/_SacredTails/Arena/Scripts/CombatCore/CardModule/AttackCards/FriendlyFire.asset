@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e50181fa899294f847a32fb983bf4e, type: 3}
+  m_Name: FriendlyFire
+  m_EditorClassIdentifier: 
+  cardType: 1
+  BattleActions:
+  - actionType: 1
+    perTurns: 1
+    turnsDuration: 1
+    amount: 94
+    isSelfInflicted: 1
+    cardSkipTurn: 1
+    bonusPercent: 20
+    statBonusDamage: 0
+    applyEachTurn: 0
+    isBuff: 0
+    isPercertange: 1
+    statToModify: 0
+    numberOfTimesBuffApplied: 0
+    changeMinAndMaxStats: 0
+    stat1: 0
+    stat2: 0
+    typeOfTerrain: 0
+    alteredState: 0
+    activateAlteredState: 0
+    alteredStateToActivate: 0
+    criticsPercentChange: 0
+    actionElementType: 1
+    criticsRoll: 0
+    evadeRoll: 0
+    turnsPassed: 0
+    evadedTurns: 0
+  Description: '[Health]Heal[End] 94 HP, improved by Attack.'
+  DisplayNotification: "Shinsei focused the heat of its sun chakra to self replenish\r"
+  VfxIndex: 19
+  vfxAffectBoth: 0
+  casterAnimation: 13
+  targetAnimation: 0
+  isComingFromCopyIndex: -1
+  cardImage: {fileID: 21300000, guid: 0a070bd537c1283409e21d52d7b1b623, type: 3}
+  PpCost: 30
+  BattleAction:
+  - '{"actionType":1,"turnsDuration":1,"amount":94,"isSelfInflicted":true,"cardSkipTurn":true,"bonusPercent":20.0,"statBonusDamage":0,"applyEachTurn":false,"isPercertange":true,"numberOfTimesBuffApplied":0,"changeMinAndMaxStats":false,"stat1":0,"stat2":0,"activateAlteredState":false,"alteredStateToActivate":0,"criticsPercentChange":0,"actionElementType":1,"criticsRoll":0.0,"evadeRoll":0.0,"turnsPassed":0,"evadedTurns":0}'

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e50181fa899294f847a32fb983bf4e, type: 3}
+  m_Name: VoidPunch
+  m_EditorClassIdentifier: 
+  cardType: 2
+  BattleActions:
+  - actionType: 2
+    perTurns: 1
+    turnsDuration: 1
+    amount: 60
+    isSelfInflicted: 0
+    cardSkipTurn: 1
+    bonusPercent: 30
+    statBonusDamage: 1
+    applyEachTurn: 0
+    isBuff: 0
+    isPercertange: 1
+    statToModify: 0
+    numberOfTimesBuffApplied: 0
+    changeMinAndMaxStats: 0
+    stat1: 0
+    stat2: 0
+    typeOfTerrain: 0
+    alteredState: 0
+    activateAlteredState: 0
+    alteredStateToActivate: 0
+    criticsPercentChange: 0
+    actionElementType: 2
+    criticsRoll: 0
+    evadeRoll: 0
+    turnsPassed: 0
+    evadedTurns: 0
+  Description: Deal [Damage]Very Weak[End] damage, improved by Defence.
+  DisplayNotification: "A dark fist smashes out of the void\r"
+  VfxIndex: 62
+  vfxAffectBoth: 0
+  casterAnimation: 14
+  targetAnimation: 9
+  isComingFromCopyIndex: -1
+  cardImage: {fileID: 21300000, guid: 96080bb11ee603d4cb8459f57b658bc2, type: 3}
+  PpCost: 16
+  BattleAction:
+  - '{"actionType":2,"turnsDuration":1,"amount":60,"isSelfInflicted":false,"cardSkipTurn":true,"bonusPercent":30.0,"statBonusDamage":1,"applyEachTurn":false,"isPercertange":true,"numberOfTimesBuffApplied":0,"changeMinAndMaxStats":false,"stat1":0,"stat2":0,"activateAlteredState":false,"alteredStateToActivate":0,"criticsPercentChange":0,"actionElementType":2,"criticsRoll":0.0,"evadeRoll":0.0,"turnsPassed":0,"evadedTurns":0}'

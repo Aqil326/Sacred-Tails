@@ -1,0 +1,1042 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8402526967990958275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1032, y: 1272}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: -8402526967990958275}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -4253744976844033409}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -8402526967990958275}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -8402526967990958275}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: 'So did you come to play.... or are you a cop or something? '
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &-6730957977774109028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 264, y: 648}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: -6730957977774109028}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 1
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -6730957977774109028}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -6730957977774109028}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: Excelent! here are the knockout tournament slots I have for you <!0!>
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &-6657950795829226272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 776, y: 1608}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: -6657950795829226272}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 1109837615535553266}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -6657950795829226272}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -6657950795829226272}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: Arigatito!
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &-5657871071531741783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 264, y: 1272}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: -5657871071531741783}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 2
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -5657871071531741783}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1520540183453622868}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -5657871071531741783}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: (nerviously) ehhhh, off course!   what a question, he he he
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &-5645070941344446970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -136, y: 392}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    - Answers 0
+    - Answers 1
+    - Answers 2
+    - Answers 3
+    values:
+    - _fieldName: input
+      _node: {fileID: -5645070941344446970}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -485882265380773256}
+        reroutePoints: []
+      - fieldName: output
+        node: {fileID: 4095802909845423182}
+        reroutePoints: []
+      - fieldName: output
+        node: {fileID: -8402526967990958275}
+        reroutePoints: []
+      - fieldName: output
+        node: {fileID: -6730957977774109028}
+        reroutePoints: []
+      - fieldName: output
+        node: {fileID: -6657950795829226272}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -5645070941344446970}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -5645070941344446970}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers 0
+      _node: {fileID: -5645070941344446970}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 797502061947567021}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 1
+      _node: {fileID: -5645070941344446970}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -6730957977774109028}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 2
+      _node: {fileID: -5645070941344446970}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: -5657871071531741783}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Answers 3
+      _node: {fileID: -5645070941344446970}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: input
+        node: {fileID: 750405634310793882}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  dialogText: Nya nya!, do you wanna play?
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers:
+  - What kind of tournaments do you do?
+  - I want to enter a knockout tournament
+  - Is all your operation legal?
+  - I am fine, please don't hit me
+--- !u!114 &-4253744976844033409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 776, y: 1272}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: -4253744976844033409}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 1520540183453622868}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -4253744976844033409}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -8402526967990958275}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -4253744976844033409}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: I wanted to create new things, new excitements, that is why I created
+    the tournaments.
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &-3022289064583062645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1432, y: 40}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: -3022289064583062645}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 6372324657704325347}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -3022289064583062645}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 3866040851986923515}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -3022289064583062645}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: You came to the right place! My name is Sonya and I loooove competition!
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &-485882265380773256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -984, y: 40}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: -485882265380773256}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 3866040851986923515}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: -485882265380773256}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: -485882265380773256}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: Then, do you wanna play?
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15ca206b0ebd2c4fb85ab27cf7d254d, type: 3}
+  m_Name: NPC5_Conversation_FirstTime
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3022289064583062645}
+  - {fileID: 7380278312674482245}
+  - {fileID: 797502061947567021}
+  - {fileID: 4095802909845423182}
+  - {fileID: -6730957977774109028}
+  - {fileID: -5657871071531741783}
+  - {fileID: 1520540183453622868}
+  - {fileID: -8402526967990958275}
+  - {fileID: 750405634310793882}
+  - {fileID: 1109837615535553266}
+  - {fileID: -6657950795829226272}
+  - {fileID: 6372324657704325347}
+  - {fileID: 3866040851986923515}
+  - {fileID: -485882265380773256}
+  - {fileID: -5645070941344446970}
+  - {fileID: -4253744976844033409}
+--- !u!114 &750405634310793882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 282.57153, y: 1615.9103}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 750405634310793882}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 3
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 750405634310793882}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1109837615535553266}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 750405634310793882}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: ha ha ha, not today
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &797502061947567021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 264, y: 408}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 797502061947567021}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Answers 0
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 797502061947567021}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 4095802909845423182}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 797502061947567021}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: In Knockout you have to fight your way to the top, if you win your
+    battle, you go to the next round, if you lose you are out.
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &1109837615535553266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 520, y: 1608}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 1109837615535553266}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 750405634310793882}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 1109837615535553266}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6657950795829226272}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 1109837615535553266}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: "But don't lose your edge\r"
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &1520540183453622868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 520, y: 1272}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 1520540183453622868}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -5657871071531741783}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 1520540183453622868}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -4253744976844033409}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 1520540183453622868}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: 'I love games and contests, but trainers had been fighting the same
+    way for ages '
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &3866040851986923515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1208, y: 40}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 3866040851986923515}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -3022289064583062645}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 3866040851986923515}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -485882265380773256}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 3866040851986923515}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: So I created the tournaments, a different way to train and battle with
+    your shinsei.
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &4095802909845423182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 584, y: 488}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 4095802909845423182}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 797502061947567021}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 4095802909845423182}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5645070941344446970}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 4095802909845423182}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: you can only sign up for one tournament at a time.
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &6372324657704325347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1656, y: 40}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 6372324657704325347}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 7380278312674482245}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 6372324657704325347}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3022289064583062645}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 6372324657704325347}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: Looking for a challenge? something only the brave comes for and the
+    best rise up?
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []
+--- !u!114 &7380278312674482245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b933852a4c9923642abcf665b008ba83, type: 3}
+  m_Name: Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1880, y: 40}
+  ports:
+    keys:
+    - input
+    - output
+    - Answers
+    values:
+    - _fieldName: input
+      _node: {fileID: 7380278312674482245}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: output
+      _node: {fileID: 7380278312674482245}
+      _typeQualifiedName: Timba.SacredTails.DialogSystem.DialogNode+Connection, SacredTails,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6372324657704325347}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Answers
+      _node: {fileID: 7380278312674482245}
+      _typeQualifiedName: System.Collections.Generic.List`1[[System.String, mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib,
+        Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  dialogText: Hey welcome!
+  randomAnswer: 0
+  sequentialAnswers: 0
+  sequentialCurrentAnswerKey: 
+  Answers: []

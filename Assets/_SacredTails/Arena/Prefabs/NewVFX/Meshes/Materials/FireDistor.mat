@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FireDistor
+  m_Shader: {fileID: -6465566751694194690, guid: a7c809ca52b732740bc57476cd0f20ca, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_15b85771b3ed40b0992446e6d52f699d:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - DistortionAmount_: 0.452
+    - Power_: 0
+    - Vector1_421d4f9d97d74821bbda5a87b4cc10a5: 39
+    - Vector1_9b56d0c043374e2b90d5fdb66c460a8b: 0.088
+    - Vector1_a96cdf0a036444d187752ac8dd0a7179: 0
+    - Vector1_f14cfb90a0bb4a80b2f118676347755c: 0.5
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Color_61bda378f0be4693b64831e7aaa3fb84: {r: 0.9433962, g: 0.4940978, b: 0.06674972, a: 1}
+    - Color_9a9af3d21a4f4f8a9dcdcad9ea8d37e5: {r: 0, g: 0, b: 0, a: 0}
+    - Color_dfbd77d8ea73435c8f1909e2a7e9072c: {r: 3.7358491, g: 0.4107478, b: 0.35206956, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &7487164915441330748
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

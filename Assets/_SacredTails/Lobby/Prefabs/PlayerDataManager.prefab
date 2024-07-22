@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5776778275161801961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5776778275161801959}
+  - component: {fileID: 5776778275161801958}
+  - component: {fileID: 2929697449775177547}
+  m_Layer: 0
+  m_Name: PlayerDataManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5776778275161801959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776778275161801961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 890.51056, y: 611.44867, z: -67.15979}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5776778275161801958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776778275161801961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54d3012c022c6b4f8240b573aa5d7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  localPlayerData:
+    localPlayerNetId: 0
+    playerName: 
+    playfabId: 
+    entityId: 
+    entityType: 
+    ShinseiCompanion:
+      shinseiName: 
+      ShinseiDna: 
+      generation: 
+      ShinseiActionsIndex: 
+      shinseiType: 0
+      reflectDamage: 0
+      shinseiRarity: 0
+      ShinseiOriginalStats:
+        Attack: 0
+        Defence: 0
+        Speed: 0
+        Stamina: 0
+        Vigor: 0
+        Health: 0
+        Energy: 0
+      shinseiIcon: {fileID: 0}
+      shinseiHealth: 0
+      shinseiEnergy: 0
+      evadeChance: 0
+    ShinseiParty: []
+    ShinseiVault:
+      ShinseiVaultList: []
+    Deck:
+      cards: []
+    currentChatMessages: []
+    challengedPlayer: 
+    characterState: 0
+    currentMatchId: 
+  localPlayerGameObject: {fileID: 1544516116133906764, guid: f1ecc3d721393bc4cb79a63b61ffc31e, type: 3}
+  isFrenchKeyboardLayout: 0
+  isResetData: 1
+  characterStyleController: {fileID: 0}
+  usePlayerPrefs: 0
+  useTestCards: 1
+  cardToTest: 00000000010000000200000003000000
+  numberOfShinseisInVault: 3
+  numberOfTestingCard: 6
+  endGamePoint: {fileID: 0}
+  currentTournamentId: 
+  currentTournamentStage: 0
+--- !u!114 &2929697449775177547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5776778275161801961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c1a7d63b0ebd74986030bdbe58003b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerDataManager: {fileID: 5776778275161801958}
+  checkTournamentInscription: {fileID: 0}
+  loadingScreen: {fileID: 0}
+  tournamentBracketPanel: {fileID: 0}
+  localPlayerPrefab: {fileID: 1544516116133906765, guid: f1ecc3d721393bc4cb79a63b61ffc31e, type: 3}
+  otherPlayerPrefab: {fileID: 1544516116133906765, guid: e386a6e3d61b2fb4eb892c6cba08dd61, type: 3}
+  currentPlayer: {fileID: 0}
+  chatTextBox: {fileID: 0}
+  connected: 0
+  otherPlayersContainer: {fileID: 0}
+  onBattle: 0
+  minErrorPosition: 0.5
+  ratePetiton: 4
+  lerpDuration: 0.1
+  OnConnectedCallback:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  connectionId: 0
+  timer: 0

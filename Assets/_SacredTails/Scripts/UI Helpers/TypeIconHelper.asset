@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2998e0c013d471c44b4125061f7acdf5, type: 3}
+  m_Name: TypeIconHelper
+  m_EditorClassIdentifier: 
+  nullIcon:
+    iconType: 0
+    battleIcon: {fileID: -6888671288311771085, guid: 7a1e33120b07eaf459f851f088588323, type: 3}
+    partIcon: {fileID: 0}
+    negativeIcon: {fileID: 0}
+    backgroundSprite: {fileID: 0}
+    TypeColor: {r: 0, g: 0, b: 0, a: 0}
+  IconCollection:
+  - iconType: 1
+    battleIcon: {fileID: -4877344090075750067, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: -6132161534946701687, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: 8311890350202900622, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 95cd987ead414414b9510c0b47b11213, type: 3}
+    TypeColor: {r: 1, g: 0.25490198, b: 0.25882354, a: 1}
+  - iconType: 0
+    battleIcon: {fileID: -2699882247599654397, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: 661637687456808640, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: 3892984624729396366, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 5dc24478e6672214aae5d44a7e234858, type: 3}
+    TypeColor: {r: 0.16078432, g: 0.7411765, b: 0.64705884, a: 1}
+  - iconType: 3
+    battleIcon: {fileID: 6937011167313336874, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: -3970588385588330300, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: -1847131772019129887, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 5d6a5f1ac7246dd4d989b50ece5980be, type: 3}
+    TypeColor: {r: 0.007843138, g: 0.3803922, b: 0.7960785, a: 1}
+  - iconType: 6
+    battleIcon: {fileID: 6364083268499283233, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: -2451199484699163864, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: 3042981028115863379, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 5ac01c33e8287b7469ac1f09f5a42954, type: 3}
+    TypeColor: {r: 0.34509805, g: 0.83921576, b: 0.8705883, a: 1}
+  - iconType: 7
+    battleIcon: {fileID: -7505504200714270228, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: -723990677276093246, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: 4963006524295041697, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: e64038c185d55294fa44cb1f29b43d93, type: 3}
+    TypeColor: {r: 0.5058824, g: 0.17254902, b: 0, a: 1}
+  - iconType: 8
+    battleIcon: {fileID: -784765717079486032, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: 3462737924112328782, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: -6223477274098385850, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 7a54ceb2718741f4a89e4aa7b1a9808b, type: 3}
+    TypeColor: {r: 0.5058824, g: 0.54509807, b: 0.62352943, a: 1}
+  - iconType: 12
+    battleIcon: {fileID: -3504990034847511000, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: -4940925004607284773, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: -1742499210000188359, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: a696acf03a07d044eb00721e4616f32c, type: 3}
+    TypeColor: {r: 0.65882355, g: 0.61960787, b: 0.5058824, a: 1}
+  - iconType: 4
+    battleIcon: {fileID: 7234448226637034177, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: 3290551205599095183, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: 4257309201131686859, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 2fd5002efe0a7a84bab6e359a4614f5b, type: 3}
+    TypeColor: {r: 0.48235297, g: 0.75294125, b: 0, a: 1}
+  - iconType: 2
+    battleIcon: {fileID: 5946633320678306367, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: 7625805935251114020, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: -7914571627088284978, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 36e9c49b73064664d95912ef74f3e944, type: 3}
+    TypeColor: {r: 0.3529412, g: 0.27058825, b: 0.47450984, a: 1}
+  - iconType: 5
+    battleIcon: {fileID: -372838804039884510, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: 58971206243755485, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: -8253396422793237705, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 5f48626e6a432984e95e50b1ffa445d1, type: 3}
+    TypeColor: {r: 0.83921576, g: 0.7019608, b: 0.16078432, a: 1}
+  - iconType: 11
+    battleIcon: {fileID: -3436188614524839305, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: 827706561394969859, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: 3149490627583352721, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: 0a0450288d848894ba10c39ebe931b37, type: 3}
+    TypeColor: {r: 0.8078432, g: 0.5254902, b: 0.8078432, a: 1}
+  - iconType: 10
+    battleIcon: {fileID: 6502806886633262943, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: -2877361605472073687, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: -8722293163455630700, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: dbd65669e17d1904e94a7e69832a80f4, type: 3}
+    TypeColor: {r: 0.3019608, g: 0.17254902, b: 0.8078432, a: 1}
+  - iconType: 9
+    battleIcon: {fileID: -1466653250195401968, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    partIcon: {fileID: 6215763468293319528, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    negativeIcon: {fileID: 889290013717282091, guid: 80c8a39dbd0c89746af7dbd9f5d2d2c4, type: 3}
+    backgroundSprite: {fileID: 21300000, guid: cdcdb533e352b2943b36b2fcca9a4cbe, type: 3}
+    TypeColor: {r: 1, g: 0.6509804, b: 0.14901961, a: 1}

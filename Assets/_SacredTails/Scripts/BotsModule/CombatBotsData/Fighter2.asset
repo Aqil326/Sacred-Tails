@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8728c10f5e6bef443a8d13731f7ed318, type: 3}
+  m_Name: Fighter2
+  m_EditorClassIdentifier: 
+  botDisplayName: RandomNPC
+  botPlayfabId: 5352E306ACAB3F9B
+  botType: 2
+  botShinseis:
+  - randomShinseiDna: 1
+    shinseiDna: 10090040011010001000100600000210010030031006002004006
+    shinseiType: 1
+    actionCards:
+    - {fileID: 11400000, guid: 6693bb5f1eed80843a0de33a5fc844a5, type: 2}
+    - {fileID: 11400000, guid: 461d8fece7bfa564891879abd13bf571, type: 2}
+    - {fileID: 11400000, guid: 318e9b34dfe49e9429944dae593be02f, type: 2}
+    - {fileID: 11400000, guid: 5759c1fe2f18ef34b83f796613b8d085, type: 2}
+    randomShinseiStats: 1
+    shinseiStats:
+      Attack: 0
+      Defence: 0
+      Speed: 0
+      Stamina: 0
+      Vigor: 0
+      Health: 0
+      Energy: 0
+  - randomShinseiDna: 1
+    shinseiDna: 10090040011010001000100600000210010030031006002004006
+    shinseiType: 5
+    actionCards:
+    - {fileID: 11400000, guid: c7805c0b50896484a890752abd80d01e, type: 2}
+    - {fileID: 11400000, guid: 0c27cb4b583a8a840ba7372262e7f0a1, type: 2}
+    - {fileID: 11400000, guid: 06076813cf6163847a31ef395f527a53, type: 2}
+    - {fileID: 11400000, guid: 8e72ab2c29153664ea1b1f854a60f481, type: 2}
+    randomShinseiStats: 1
+    shinseiStats:
+      Attack: 0
+      Defence: 0
+      Speed: 0
+      Stamina: 0
+      Vigor: 0
+      Health: 0
+      Energy: 0
+  - randomShinseiDna: 1
+    shinseiDna: 10090040011010001000100600000210010030031006002004006
+    shinseiType: 0
+    actionCards:
+    - {fileID: 11400000, guid: 3b5f751717fb4d44087ea8d46b7d268b, type: 2}
+    - {fileID: 11400000, guid: 46543e74164c0cd42a87bfa226e0254c, type: 2}
+    - {fileID: 11400000, guid: f40175cd0c0a9dd47aa67e344259dc7d, type: 2}
+    - {fileID: 11400000, guid: 06076813cf6163847a31ef395f527a53, type: 2}
+    randomShinseiStats: 1
+    shinseiStats:
+      Attack: 0
+      Defence: 0
+      Speed: 0
+      Stamina: 0
+      Vigor: 0
+      Health: 0
+      Energy: 0
+  - randomShinseiDna: 1
+    shinseiDna: 
+    shinseiType: 12
+    actionCards:
+    - {fileID: 11400000, guid: dc86bc77e659bc24c8e8254da5a63973, type: 2}
+    - {fileID: 11400000, guid: 6ae5a106755cbce43ad6bea42967fc7a, type: 2}
+    - {fileID: 11400000, guid: 6c0f418eddacfcf469a4ac97dcc34cfa, type: 2}
+    - {fileID: 11400000, guid: 5759c1fe2f18ef34b83f796613b8d085, type: 2}
+    randomShinseiStats: 1
+    shinseiStats:
+      Attack: 0
+      Defence: 0
+      Speed: 0
+      Stamina: 0
+      Vigor: 0
+      Health: 0
+      Energy: 0
+  - randomShinseiDna: 1
+    shinseiDna: 
+    shinseiType: 4
+    actionCards:
+    - {fileID: 11400000, guid: 57c1a563f201f0f478a5f0d8dceb1c0d, type: 2}
+    - {fileID: 11400000, guid: 4511730a57a5a0944a728ff6eee989d8, type: 2}
+    - {fileID: 11400000, guid: 92a51d02cc916054493a1fc0bdafca0f, type: 2}
+    - {fileID: 11400000, guid: 9bff280827b957046a9ac7c2e2bdefb5, type: 2}
+    randomShinseiStats: 1
+    shinseiStats:
+      Attack: 0
+      Defence: 0
+      Speed: 0
+      Stamina: 0
+      Vigor: 0
+      Health: 0
+      Energy: 0
+  - randomShinseiDna: 1
+    shinseiDna: 
+    shinseiType: 6
+    actionCards:
+    - {fileID: 11400000, guid: c8f5587ff7139ee43b59e82f6f29aa41, type: 2}
+    - {fileID: 11400000, guid: 79da407627528cb45a6de067678345af, type: 2}
+    - {fileID: 11400000, guid: 79633157fc589154caa8a8766e9d6bf5, type: 2}
+    - {fileID: 11400000, guid: 0c27cb4b583a8a840ba7372262e7f0a1, type: 2}
+    randomShinseiStats: 1
+    shinseiStats:
+      Attack: 0
+      Defence: 0
+      Speed: 0
+      Stamina: 0
+      Vigor: 0
+      Health: 0
+      Energy: 0
+  shinseis:
+  - shinseiName: 
+    ShinseiDna: 10120060011006003000100700000210120070031009004004012
+    generation: 
+    ShinseiActionsIndex: 120000000c0000000400000003000000
+    shinseiType: 1
+    reflectDamage: 0
+    shinseiRarity: 3
+    ShinseiOriginalStats:
+      Attack: 65
+      Defence: 93
+      Speed: 109
+      Stamina: 101
+      Vigor: 113
+      Health: 680
+      Energy: 172
+    shinseiHealth: 680
+    shinseiEnergy: 172
+    evadeChance: 0
+    didAlteredStateKillShinsei: 0
+    healthAfterAlteredState: 0
+    healingAmount: 0
+    realDirectDamage: 0
+    typeMultiplier: 0
+    didEvadeAttack: 0
+  - shinseiName: 
+    ShinseiDna: 10120070011001002000100900100210080020031011004004001
+    generation: 
+    ShinseiActionsIndex: 19000000160000000600000039000000
+    shinseiType: 5
+    reflectDamage: 0
+    shinseiRarity: 3
+    ShinseiOriginalStats:
+      Attack: 87
+      Defence: 78
+      Speed: 74
+      Stamina: 77
+      Vigor: 119
+      Health: 704
+      Energy: 136
+    shinseiHealth: 704
+    shinseiEnergy: 136
+    evadeChance: 0
+    didAlteredStateKillShinsei: 0
+    healthAfterAlteredState: 0
+    healingAmount: 0
+    realDirectDamage: 0
+    typeMultiplier: 0
+    didEvadeAttack: 0
+  - shinseiName: 
+    ShinseiDna: 10120050011001003000100800400210120090031011004004012
+    generation: 
+    ShinseiActionsIndex: 20000000300000002200000006000000
+    shinseiType: 0
+    reflectDamage: 0
+    shinseiRarity: 4
+    ShinseiOriginalStats:
+      Attack: 146
+      Defence: 82
+      Speed: 152
+      Stamina: 101
+      Vigor: 131
+      Health: 752
+      Energy: 172
+    shinseiHealth: 752
+    shinseiEnergy: 172
+    evadeChance: 0
+    didAlteredStateKillShinsei: 0
+    healthAfterAlteredState: 0
+    healingAmount: 0
+    realDirectDamage: 0
+    typeMultiplier: 0
+    didEvadeAttack: 0
+  - shinseiName: 
+    ShinseiDna: 10120050011010003000100300100210090000031006004004010
+    generation: 
+    ShinseiActionsIndex: 08000000420000001a00000003000000
+    shinseiType: 12
+    reflectDamage: 0
+    shinseiRarity: 2
+    ShinseiOriginalStats:
+      Attack: 44
+      Defence: 118
+      Speed: 41
+      Stamina: 77
+      Vigor: 107
+      Health: 656
+      Energy: 136
+    shinseiHealth: 656
+    shinseiEnergy: 136
+    evadeChance: 0
+    didAlteredStateKillShinsei: 0
+    healthAfterAlteredState: 0
+    healingAmount: 0
+    realDirectDamage: 0
+    typeMultiplier: 0
+    didEvadeAttack: 0
+  - shinseiName: 
+    ShinseiDna: 10070040011006003000100000200210040020031009000004006
+    generation: 
+    ShinseiActionsIndex: 2d0000002f000000260000002b000000
+    shinseiType: 4
+    reflectDamage: 0
+    shinseiRarity: 2
+    ShinseiOriginalStats:
+      Attack: 158
+      Defence: 121
+      Speed: 68
+      Stamina: 80
+      Vigor: 44
+      Health: 404
+      Energy: 140
+    shinseiHealth: 404
+    shinseiEnergy: 140
+    evadeChance: 0
+    didAlteredStateKillShinsei: 0
+    healthAfterAlteredState: 0
+    healingAmount: 0
+    realDirectDamage: 0
+    typeMultiplier: 0
+    didEvadeAttack: 0
+  - shinseiName: 
+    ShinseiDna: 10040020011008003000100600400210050010031006000004006
+    generation: 
+    ShinseiActionsIndex: 170000003a0000002e00000016000000
+    shinseiType: 6
+    reflectDamage: 0
+    shinseiRarity: 2
+    ShinseiOriginalStats:
+      Attack: 198
+      Defence: 83
+      Speed: 50
+      Stamina: 80
+      Vigor: 40
+      Health: 388
+      Energy: 140
+    shinseiHealth: 388
+    shinseiEnergy: 140
+    evadeChance: 0
+    didAlteredStateKillShinsei: 0
+    healthAfterAlteredState: 0
+    healingAmount: 0
+    realDirectDamage: 0
+    typeMultiplier: 0
+    didEvadeAttack: 0

@@ -1,0 +1,17 @@
+#pragma kernel CSMain
+RWTexture2D<float4> Result;
+Texture2D Texture;
+
+[numthreads(8, 8, 1)]
+void CSMain(uint2 id : SV_DispatchThreadID)
+{
+	//if (id.x > MinX && id.x< MaxX && id.y > MinY && id.y < MaxY) {
+		// Change rgb of texture
+		float4 c = Texture[id.xy];
+		float greyScaleValue = (c.r + c.g + c.b) / 3;
+		c.r = greyScaleValue;
+		c.g = greyScaleValue;
+		c.b = greyScaleValue;
+		Result[id.xy] = c;
+	//}
+}

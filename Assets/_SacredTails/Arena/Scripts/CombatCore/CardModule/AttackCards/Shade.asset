@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61e50181fa899294f847a32fb983bf4e, type: 3}
+  m_Name: Shade
+  m_EditorClassIdentifier: 
+  cardType: 2
+  BattleActions:
+  - actionType: 11
+    perTurns: 1
+    turnsDuration: 1
+    amount: 0
+    isSelfInflicted: 0
+    cardSkipTurn: 1
+    bonusPercent: 0
+    statBonusDamage: 0
+    applyEachTurn: 0
+    isBuff: 0
+    isPercertange: 1
+    statToModify: 0
+    numberOfTimesBuffApplied: 0
+    changeMinAndMaxStats: 0
+    stat1: 0
+    stat2: 0
+    typeOfTerrain: 0
+    alteredState: 0
+    activateAlteredState: 0
+    alteredStateToActivate: 0
+    criticsPercentChange: 0
+    actionElementType: 2
+    criticsRoll: 0
+    evadeRoll: 0
+    turnsPassed: 0
+    evadedTurns: 0
+  Description: '[Random]COPY[End] the next skill used by the opponent.'
+  DisplayNotification: A shadow clone has formed.
+  VfxIndex: 50
+  vfxAffectBoth: 0
+  casterAnimation: 13
+  targetAnimation: 0
+  isComingFromCopyIndex: -1
+  cardImage: {fileID: 21300000, guid: 9b50225870ccbeb4bae49b9cbf1b1649, type: 3}
+  PpCost: 65
+  BattleAction:
+  - '{"actionType":9,"turnsDuration":1,"amount":0,"isSelfInflicted":false,"cardSkipTurn":true,"bonusPercent":0.0,"applyEachTurn":false,"isPercertange":true,"activateAlteredState":false,"alteredStateToActivate":0,"criticsPercentChange":0,"actionElementType":2,"criticsRoll":0.0,"evadeRoll":0.0,"turnsPassed":0,"evadedTurns":0}'
