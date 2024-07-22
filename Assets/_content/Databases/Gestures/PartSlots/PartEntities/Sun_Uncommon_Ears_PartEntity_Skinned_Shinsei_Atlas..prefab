@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3004876230341232225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6202415698766265650}
+  - component: {fileID: 7529343612904549247}
+  - component: {fileID: 7104354165602087028}
+  - component: {fileID: 1976724962992664352}
+  m_Layer: 0
+  m_Name: Sun_Uncommon_Ears_PartEntity_Skinned_Shinsei_Atlas.
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &6202415698766265650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004876230341232225}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.2514834, y: 0.44970894, z: 0.7163086}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6989319416944625130}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &7529343612904549247
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004876230341232225}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f92e0f66870de174c9fbac477379abe0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 8026184029030288661, guid: c5d647975e55ad940b99255d71f77b79, type: 3}
+  m_Bones:
+  - {fileID: 2822445385305270489, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 7269415644394206251, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 5149307287645128166, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 7596694055779747225, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 4207712953747376646, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2198015208668208536, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2933875022332147881, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2461883756583596238, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 105128071027373935, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2668672128271833563, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 1528694377454647830, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 3629298552945356905, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 7442747868282225698, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 5280954123663914740, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 8780581038655698022, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2822445385305270489, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  m_AABB:
+    m_Center: {x: -0.3974617, y: -0.13066417, z: -0.0004989207}
+    m_Extent: {x: 0.46563834, y: 0.42561436, z: 0.8756044}
+  m_DirtyAABB: 0
+--- !u!114 &7104354165602087028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004876230341232225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da52f1feecd3fd4486187efcebd9b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPartID: 
+  _childs: []
+  _childFromChilds: []
+--- !u!114 &1976724962992664352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004876230341232225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff48b78e0eedf4cb13699161cec5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: []
+  recolorMaterial: []
+--- !u!1 &3060232881614364796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6989319416944625130}
+  - component: {fileID: 7468790569694805563}
+  m_Layer: 0
+  m_Name: Sun_Uncommon_Ears_PartEntity 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6989319416944625130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3060232881614364796}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6202415698766265650}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7468790569694805563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3060232881614364796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff48b78e0eedf4cb13699161cec5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: []
+  recolorMaterial: []

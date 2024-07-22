@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &512557660529190036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709291761494733039}
+  - component: {fileID: 4485247117347816682}
+  - component: {fileID: 8211524716614447776}
+  - component: {fileID: 7940285113641283013}
+  m_Layer: 0
+  m_Name: Dreamer_Epic_Ears_PartEntity_Skinned_Shinsei_Atlas.
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &709291761494733039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512557660529190036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8525250896086194828}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4485247117347816682
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512557660529190036}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d7c6919927d887645985e647adb22219, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 6139978937672001970, guid: c8c18b63c72cb4d488324b8d1154c3be, type: 3}
+  m_Bones:
+  - {fileID: 2822445385305270489, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 7269415644394206251, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 5149307287645128166, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 7596694055779747225, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 4207712953747376646, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2198015208668208536, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2933875022332147881, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2461883756583596238, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 105128071027373935, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 2668672128271833563, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 1528694377454647830, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 3629298552945356905, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 7442747868282225698, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 5280954123663914740, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  - {fileID: 8780581038655698022, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2822445385305270489, guid: 2b6747a27e8832945bb7048947eac30e, type: 3}
+  m_AABB:
+    m_Center: {x: -0.35137948, y: -0.060843557, z: -0.000013709068}
+    m_Extent: {x: 0.42117348, y: 0.3755822, z: 1.5823599}
+  m_DirtyAABB: 0
+--- !u!114 &8211524716614447776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512557660529190036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da52f1feecd3fd4486187efcebd9b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPartID: 
+  _childs: []
+  _childFromChilds: []
+--- !u!114 &7940285113641283013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512557660529190036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff48b78e0eedf4cb13699161cec5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: []
+  recolorMaterial: []
+--- !u!1 &1537322568303110979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8525250896086194828}
+  - component: {fileID: 5400983690156209122}
+  m_Layer: 0
+  m_Name: Dreamer_Epic_Ears_PartEntity 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8525250896086194828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537322568303110979}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 709291761494733039}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5400983690156209122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537322568303110979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff48b78e0eedf4cb13699161cec5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: []
+  recolorMaterial: []

@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb96dcfc44bfc74ba273e0d7dbaf4be, type: 3}
+  m_Name: PartsStatDatabase
+  m_EditorClassIdentifier: 
+  partsStats:
+  - partType: 2
+    typeStatsAndMultipliers:
+      globalPartStat: 15
+      elementBonusMultiplier1: 4
+      elementPenaltyMultiplier: 1
+    baseMultipliers:
+      statBonus1: 0
+      statBonus2: 5
+      statPenalty: 4
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.5
+      rarePartMultiplier: 2.5
+      epicPartMultiplier: 3
+      legendaryPartMultiplier: 4
+  - partType: 5
+    typeStatsAndMultipliers:
+      globalPartStat: 20
+      elementBonusMultiplier1: 2.2
+      elementPenaltyMultiplier: 0.8
+    baseMultipliers:
+      statBonus1: 1
+      statBonus2: 4
+      statPenalty: 6
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.5
+      rarePartMultiplier: 2.5
+      epicPartMultiplier: 3
+      legendaryPartMultiplier: 4.5
+  - partType: 4
+    typeStatsAndMultipliers:
+      globalPartStat: 24
+      elementBonusMultiplier1: 1.2
+      elementPenaltyMultiplier: 0.6
+    baseMultipliers:
+      statBonus1: 6
+      statBonus2: 1
+      statPenalty: 0
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.2
+      rarePartMultiplier: 2
+      epicPartMultiplier: 2.5
+      legendaryPartMultiplier: 3
+  - partType: 3
+    typeStatsAndMultipliers:
+      globalPartStat: 15
+      elementBonusMultiplier1: 4
+      elementPenaltyMultiplier: 1
+    baseMultipliers:
+      statBonus1: 5
+      statBonus2: 6
+      statPenalty: 1
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.8
+      rarePartMultiplier: 3
+      epicPartMultiplier: 4
+      legendaryPartMultiplier: 5
+  - partType: 0
+    typeStatsAndMultipliers:
+      globalPartStat: 20
+      elementBonusMultiplier1: 2.2
+      elementPenaltyMultiplier: 0.8
+    baseMultipliers:
+      statBonus1: 0
+      statBonus2: 4
+      statPenalty: 1
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.5
+      rarePartMultiplier: 2.5
+      epicPartMultiplier: 3
+      legendaryPartMultiplier: 4.5
+  - partType: 1
+    typeStatsAndMultipliers:
+      globalPartStat: 24
+      elementBonusMultiplier1: 1.2
+      elementPenaltyMultiplier: 0.6
+    baseMultipliers:
+      statBonus1: 0
+      statBonus2: 6
+      statPenalty: 1
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.2
+      rarePartMultiplier: 2
+      epicPartMultiplier: 2.5
+      legendaryPartMultiplier: 3
+  - partType: 10
+    typeStatsAndMultipliers:
+      globalPartStat: 15
+      elementBonusMultiplier1: 4
+      elementPenaltyMultiplier: 1
+    baseMultipliers:
+      statBonus1: 1
+      statBonus2: 6
+      statPenalty: 5
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.8
+      rarePartMultiplier: 3
+      epicPartMultiplier: 4
+      legendaryPartMultiplier: 5
+  - partType: 11
+    typeStatsAndMultipliers:
+      globalPartStat: 20
+      elementBonusMultiplier1: 2.2
+      elementPenaltyMultiplier: 0.8
+    baseMultipliers:
+      statBonus1: 6
+      statBonus2: 5
+      statPenalty: 4
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.5
+      rarePartMultiplier: 2.5
+      epicPartMultiplier: 3
+      legendaryPartMultiplier: 4.5
+  - partType: 7
+    typeStatsAndMultipliers:
+      globalPartStat: 24
+      elementBonusMultiplier1: 1.2
+      elementPenaltyMultiplier: 0.6
+    baseMultipliers:
+      statBonus1: 1
+      statBonus2: 5
+      statPenalty: 4
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.2
+      rarePartMultiplier: 2
+      epicPartMultiplier: 2.5
+      legendaryPartMultiplier: 3
+  - partType: 8
+    typeStatsAndMultipliers:
+      globalPartStat: 15
+      elementBonusMultiplier1: 4
+      elementPenaltyMultiplier: 1
+    baseMultipliers:
+      statBonus1: 6
+      statBonus2: 0
+      statPenalty: 5
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.8
+      rarePartMultiplier: 3
+      epicPartMultiplier: 4
+      legendaryPartMultiplier: 5
+  - partType: 6
+    typeStatsAndMultipliers:
+      globalPartStat: 20
+      elementBonusMultiplier1: 2.2
+      elementPenaltyMultiplier: 0.8
+    baseMultipliers:
+      statBonus1: 0
+      statBonus2: 5
+      statPenalty: 6
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.5
+      rarePartMultiplier: 2.5
+      epicPartMultiplier: 3
+      legendaryPartMultiplier: 4.5
+  - partType: 9
+    typeStatsAndMultipliers:
+      globalPartStat: 24
+      elementBonusMultiplier1: 1.2
+      elementPenaltyMultiplier: 0.6
+    baseMultipliers:
+      statBonus1: 4
+      statBonus2: 6
+      statPenalty: 0
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.2
+      rarePartMultiplier: 2
+      epicPartMultiplier: 2.5
+      legendaryPartMultiplier: 3
+  - partType: 12
+    typeStatsAndMultipliers:
+      globalPartStat: 27
+      elementBonusMultiplier1: 0.5
+      elementPenaltyMultiplier: 0
+    baseMultipliers:
+      statBonus1: 3
+      statBonus2: 3
+      statPenalty: 3
+    partMultipliers:
+      commonPartMultiplier: 1
+      uncommonPartMultiplier: 1.4
+      rarePartMultiplier: 2
+      epicPartMultiplier: 2.8
+      legendaryPartMultiplier: 3.6

@@ -1,0 +1,254 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1649973753364777975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9121947616150035576}
+  - component: {fileID: 2438564030074117910}
+  - component: {fileID: 228970699974203299}
+  m_Layer: 0
+  m_Name: Shinsei_Atlas_Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9121947616150035576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649973753364777975}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4479812213841666039}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2438564030074117910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649973753364777975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd97f6af5cbe4f45b513e0812b2c259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterCode: 
+  characterID: Shinsei_Atlas
+  shinsei:
+    shinseiName: 
+    ShinseiDna: 
+    generation: 
+    ShinseiActionsIndex: 
+    shinseiType: 0
+    reflectDamage: 0
+    shinseiRarity: 0
+    ShinseiOriginalStats:
+      Attack: 0
+      Defence: 0
+      Speed: 0
+      Stamina: 0
+      Vigor: 0
+      Health: 0
+      Energy: 0
+    shinseiIcon: {fileID: 0}
+    shinseiHealth: 0
+    shinseiEnergy: 0
+    evadeChance: 0
+    didAlteredStateKillShinsei: 0
+    healthAfterAlteredState: 0
+    healingAmount: 0
+    realDirectDamage: 0
+    typeMultiplier: 0
+    didEvadeAttack: 0
+  animator: {fileID: 0}
+  partSlots: []
+--- !u!114 &228970699974203299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649973753364777975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 2285381232
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!1001 &9118705621692825302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9121947616150035576}
+    m_Modifications:
+    - target: {fileID: 790249693432039826, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: navmeshAgent
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1433127764739183823, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_Name
+      value: Skinned_Shinsei_Atlas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3628744511489975714, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 951099334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 230399685630949635, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1433127764739183823, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4158938880605232377}
+    - targetCorrespondingSourceObject: {fileID: 1433127764739183823, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7185447951437661248}
+    - targetCorrespondingSourceObject: {fileID: 1433127764739183823, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8650403246530637560}
+  m_SourcePrefab: {fileID: 100100000, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+--- !u!4 &4479812213841666039 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4658792438081954081, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+  m_PrefabInstance: {fileID: 9118705621692825302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7885618679862061593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1433127764739183823, guid: ffaa5e2dde08a2743b7f0b9d7f1b7e3c, type: 3}
+  m_PrefabInstance: {fileID: 9118705621692825302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4158938880605232377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885618679862061593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  Interpolate: 1
+  SlerpPosition: 0
+--- !u!114 &7185447951437661248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885618679862061593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d008b91ac116340b76cf4c446f120b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownPlayer: {fileID: 0}
+  animator: {fileID: 0}
+  navmeshAgent: {fileID: 8650403246530637560}
+--- !u!195 &8650403246530637560
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7885618679862061593}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4

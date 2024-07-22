@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4404001419935397179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 696896701110972074}
+  - component: {fileID: 3941159348898405643}
+  - component: {fileID: 2688316505136714403}
+  - component: {fileID: 291343300034133631}
+  m_Layer: 0
+  m_Name: Snow_Epic_Tail_PartEntity_Skinned_Shinsei_Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &696896701110972074
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4404001419935397179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6026900510260366488}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &3941159348898405643
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4404001419935397179}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ade09b50f64b4ac41a5b4cf0184c2d0d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 8405640215441893799, guid: c378c7490f7d78b48a570a415d4bd657, type: 3}
+  m_Bones:
+  - {fileID: 2177798831384316156, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 6316450003281674895, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 3593826972453175991, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 8124844477259445882, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 8701527921733920416, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 3037640193361592005, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 5895783944680182981, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 3513061777074574493, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 8798046627584182172, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  - {fileID: 6196292491109658871, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2177798831384316156, guid: 5dd455ee818a14b4387012351c043a25, type: 3}
+  m_AABB:
+    m_Center: {x: 1.185087, y: 0.10629647, z: 0.000023521483}
+    m_Extent: {x: 0.89144033, y: 0.3291747, z: 0.1697264}
+  m_DirtyAABB: 0
+--- !u!114 &2688316505136714403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4404001419935397179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da52f1feecd3fd4486187efcebd9b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyPartID: 
+  _childs: []
+  _childFromChilds: []
+--- !u!114 &291343300034133631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4404001419935397179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff48b78e0eedf4cb13699161cec5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: []
+  recolorMaterial: []
+--- !u!1 &4695178013955663435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6026900510260366488}
+  - component: {fileID: 1144476082405682727}
+  m_Layer: 0
+  m_Name: Snow_Epic_Tail_PartEntity 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6026900510260366488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695178013955663435}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.011667985, y: 0.7408265, z: -1.4335548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 696896701110972074}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1144476082405682727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4695178013955663435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cff48b78e0eedf4cb13699161cec5ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: []
+  recolorMaterial: []
