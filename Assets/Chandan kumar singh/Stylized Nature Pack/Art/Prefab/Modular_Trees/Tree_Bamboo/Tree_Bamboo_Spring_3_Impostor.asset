@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &-2909633636173149715
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tree_Bamboo_Spring_3_Impostor
+  m_Shader: {fileID: 4800000, guid: da79d698f4bf0164e910ad798d07efdf, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 283f4cf4a23d8bc489e3093608f3a81d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 2800000, guid: dbe2fd73dcd9eb240a76d369950655ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 2800000, guid: c652f5458d884174d83bfa63c70ad55f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: 8578a3ea5907dd64bbfabd23fee31763, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AI_AlphaToCoverage: 0
+    - _AI_ShadowBias: 0.25
+    - _AI_ShadowView: 1
+    - _ClipMask: 0.5
+    - _DepthSize: 13.552236
+    - _Frames: 16
+    - _FramesX: 16
+    - _FramesY: 16
+    - _Hemi: 0
+    - _Hue: 0
+    - _ImpostorSize: 13.502387
+    - _Parallax: 1
+    - _TextureBias: -1
+    - _Use_Parallax: 0
+    m_Colors:
+    - _AI_SizeOffset: {r: 13.502387, g: 13.552236, b: 0, a: -0.0010174419}
+    - _HueVariation: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: -4.822797, g: 4.132634, b: -0.188416, a: 0.01627907}
+  m_BuildTextureStacks: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7ba7a43222473d4292f91ae936fe2cc, type: 3}
+  m_Name: Tree_Bamboo_Spring_3_Impostor
+  m_EditorClassIdentifier: 
+  Material: {fileID: -2909633636173149715}
+  Mesh: {fileID: 1415413480994798744}
+  Version: 9713
+  ImpostorType: 0
+  LockedSizes: 1
+  SelectedSize: 2048
+  TexSize: {x: 2048, y: 2048}
+  DecoupleAxisFrames: 0
+  HorizontalFrames: 16
+  VerticalFrames: 16
+  PixelPadding: 32
+  MaxVertices: 8
+  Tolerance: 0.15
+  NormalScale: 0.01
+  ShapePoints:
+  - {x: 0, y: 0.43833894}
+  - {x: 0.06813666, y: 0.85457206}
+  - {x: 0.37660873, y: 1}
+  - {x: 0.6233913, y: 1}
+  - {x: 0.98506904, y: 0.82752293}
+  - {x: 0.98606986, y: 0.32285482}
+  - {x: 0.74323416, y: 0}
+  - {x: 0.13465568, y: 0}
+  Preset: {fileID: 11400000, guid: 0403878495ffa3c4e9d4bcb3eac9b559, type: 2}
+  OverrideOutput: []
+--- !u!43 &1415413480994798744
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tree_Bamboo_Spring_3_Impostor
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 18
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 8
+    localAABB:
+      m_Center: {x: -0.09404516, y: -0.2198062, z: 0}
+      m_Extent: {x: 6.6571484, y: 6.7511935, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 070005000300030001000700070006000500050004000300030002000100010000000700
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 8
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 256
+    _typelessdata: c709d8c02fde1c3f000000000000000000000000000080bf0000000005c90f3f1399bac06b3ca0c0000000000000000000000000000080bf3c8b8b3d10eb143e0042d5bf6e12dfc0000000000000000000000000000080bfdcd2c03e000000000042d53f6e12dfc0000000000000000000000000000080bf92961f3f000000003e96d140798c94c0000000000000000000000000000080bf7c2d7c3fd49d303ef104d2404d030b40000000000000000000000000000080bf136f7c3f63592d3f043152402001d140000000000000000000000000000080bf98443e3f0000803f4edb9dc02001d140000000000000000000000000000080bf2ee3093e0000803f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -4.822797, y: 4.132634, z: -0.188416}
+    m_Extent: {x: 6.3512735, y: 4.1544657, z: 2.7440252}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
