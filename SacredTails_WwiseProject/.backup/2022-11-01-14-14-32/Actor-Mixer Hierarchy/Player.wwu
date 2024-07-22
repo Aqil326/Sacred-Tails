@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B008F54B-9818-4547-94D6-F5EEB86D536D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{B008F54B-9818-4547-94D6-F5EEB86D536D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Girl" ID="{806EE15C-F6ED-4527-913D-09F86662C8EB}" ShortID="321290441">
+					<ChildrenList>
+						<Sound Name="Character_Attack01_Anim" ID="{BC0840B5-3E47-4C85-A825-7223C07DFB58}" ShortID="947535405">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Attack01_Anim" ID="{E70CDF13-A2D7-4C81-A436-7F9B4F52BF22}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Attack01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="652998269"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Attack01_Anim" ID="{E70CDF13-A2D7-4C81-A436-7F9B4F52BF22}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Celebration01_Anim" ID="{A27F78B7-C08B-4CDD-B620-8B52689E874D}" ShortID="986053052">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Celebration01_Anim" ID="{83064258-9312-4C3B-8DF6-09374C0D5AA4}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Celebration01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="453874405"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Celebration01_Anim" ID="{83064258-9312-4C3B-8DF6-09374C0D5AA4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Idle03_Anim" ID="{8231EA4F-C3C3-432C-BAA0-BDCEF34446EC}" ShortID="695300608">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Idle03_Anim" ID="{43FE0638-F537-457F-B0B9-C5BEB2B627E2}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Idle03_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="377353452"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Idle03_Anim" ID="{43FE0638-F537-457F-B0B9-C5BEB2B627E2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Idle06_Anim" ID="{28949A77-5F33-4F46-88F6-ED9D12B9354A}" ShortID="263969014">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Idle06_Anim" ID="{CCDFB8A6-37D6-442C-9C33-83C2B5D15F49}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Idle06_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1049264692"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Idle06_Anim" ID="{CCDFB8A6-37D6-442C-9C33-83C2B5D15F49}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Interact01_Anim" ID="{C8C199E4-D0A0-40C4-8A55-B079AFBDCB31}" ShortID="265919051">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Interact01_Anim" ID="{CA9C9250-9C9B-45EC-B71F-C360017AC5A1}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Interact01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477774001"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Interact01_Anim" ID="{CA9C9250-9C9B-45EC-B71F-C360017AC5A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Lose01_Anim" ID="{6520B6BA-08AE-4551-94E9-0584789FA736}" ShortID="682937625">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Lose01_Anim" ID="{037789C1-57BF-4E94-BDFD-376A3FF46C94}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Lose01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="859319245"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Lose01_Anim" ID="{037789C1-57BF-4E94-BDFD-376A3FF46C94}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Ready01_Anim" ID="{F36062DD-C4A8-44C1-9333-CC06A30E7F16}" ShortID="595019982">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Ready01_Anim" ID="{C9C273E6-0DE0-43A8-AF79-AF6E2F781BC9}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Ready01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="959539072"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Ready01_Anim" ID="{C9C273E6-0DE0-43A8-AF79-AF6E2F781BC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Character_Salute01_Anim" ID="{EF89BC33-81FF-4602-8819-A54A52BCFC87}" ShortID="1033896568">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Character_Salute01_Anim" ID="{78C56C9C-9FD7-4F67-8733-A6ABDA089FC3}">
+									<Language>SFX</Language>
+									<AudioFile>Character_Salute01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="717158240"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Character_Salute01_Anim" ID="{78C56C9C-9FD7-4F67-8733-A6ABDA089FC3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Boy" ID="{A0B0BE2C-792D-4C2F-A75B-45E258EA17B9}" ShortID="197034498">
+					<ChildrenList>
+						<Sound Name="CharacterMale_Attack01_Anim" ID="{0FFEC41F-7316-47BE-83F4-E925A507B979}" ShortID="43775466">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Anim Attenuation" ID="{9BE28CFB-D1F3-40F1-9267-E394B4997055}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Attack01_Anim" ID="{36C6F811-C171-4E8F-AEE9-737E715C623A}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Attack01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="127805697"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Attack01_Anim" ID="{36C6F811-C171-4E8F-AEE9-737E715C623A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CharacterMale_Celebration01_Anim" ID="{09BC16EC-1427-456E-9E9A-80FC0EC0D97B}" ShortID="205927381">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Celebration01_Anim" ID="{FC122BB9-0010-46F8-BEF9-2F8F7EB90971}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Celebration01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="401610155"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Celebration01_Anim" ID="{FC122BB9-0010-46F8-BEF9-2F8F7EB90971}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CharacterMale_Idle03_Anim" ID="{9CC6098B-796B-4B39-8AF6-3A106E71F523}" ShortID="574406963">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Idle03_Anim" ID="{DBF6F967-454F-4D19-9889-3FF844265B71}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Idle03_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="276912146"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Idle03_Anim" ID="{DBF6F967-454F-4D19-9889-3FF844265B71}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CharacterMale_Idle06_Anim" ID="{136525E6-857B-4F79-BAF3-39FB9C49F059}" ShortID="144021430">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Idle06_Anim" ID="{58F3CF60-6D42-4A75-9D1B-C5684811C898}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Idle06_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="670058695"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Idle06_Anim" ID="{58F3CF60-6D42-4A75-9D1B-C5684811C898}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CharacterMale_Interact01_Anim" ID="{A4EF6340-7E44-4AFA-A2B6-48DD42009A27}" ShortID="344189925">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Interact01_Anim" ID="{ADEECD1E-BA0F-4C36-87F9-265E5F85C106}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Interact01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="460802796"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Interact01_Anim" ID="{ADEECD1E-BA0F-4C36-87F9-265E5F85C106}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CharacterMale_Lose01_Anim" ID="{C5CF5810-F43F-4840-BA08-73E5A29597E7}" ShortID="639326523">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Lose01_Anim" ID="{EF65347E-AB01-474F-9A0C-C4C167B9C3BC}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Lose01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="603336073"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Lose01_Anim" ID="{EF65347E-AB01-474F-9A0C-C4C167B9C3BC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CharacterMale_Ready01_Anim" ID="{0ACDC430-CD8A-42CA-889C-750EBF6096D4}" ShortID="472370941">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Ready01_Anim" ID="{0D9086AE-1909-4DB9-9C5A-CFCF70BEF100}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Ready01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="586597298"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Ready01_Anim" ID="{0D9086AE-1909-4DB9-9C5A-CFCF70BEF100}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CharacterMale_Salute01_Anim" ID="{0C9B7035-1A78-4EE9-A8FE-F9166E961E90}" ShortID="435418743">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CharacterMale_Salute01_Anim" ID="{15F68846-3BD7-4B38-91D1-0E25D4C49B07}">
+									<Language>SFX</Language>
+									<AudioFile>CharacterMale_Salute01_Anim.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="912873619"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="CharacterMale_Salute01_Anim" ID="{15F68846-3BD7-4B38-91D1-0E25D4C49B07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

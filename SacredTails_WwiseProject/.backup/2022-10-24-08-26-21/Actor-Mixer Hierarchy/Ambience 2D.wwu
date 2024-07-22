@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A20A81B9-835F-4C1A-8BC0-5BB62106D1C6}" SchemaVersion="103" RootDocumentID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}" ParentDocumentID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience 2D" ID="{A20A81B9-835F-4C1A-8BC0-5BB62106D1C6}" OwnerID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Ambience_Birds" ID="{770318FD-52D9-4415-9066-D08F3A5B82B8}" ShortID="513474181">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience_Birds" ID="{7C35F1BF-D58E-480F-B950-51F55D46A836}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience_Birds.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1025113363"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience_Birds" ID="{7C35F1BF-D58E-480F-B950-51F55D46A836}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambience_TempleForest" ID="{878AD920-B4B2-4EA8-9366-B4B6EA8327EC}" ShortID="863592375">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>0.3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience_TempleForest" ID="{BEC5FADC-075A-4CB6-8626-A99B986B1312}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience_TempleForest.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="953900298"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience_TempleForest" ID="{BEC5FADC-075A-4CB6-8626-A99B986B1312}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

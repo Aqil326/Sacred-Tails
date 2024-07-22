@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{669D591D-89C1-4797-B854-80A134C45F06}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{669D591D-89C1-4797-B854-80A134C45F06}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Player_Movement" ID="{22BB5A27-8688-415F-8DA2-54A424AA5489}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps" ID="{3EB9E007-A1BF-4414-BF51-A894F61DFC61}" WorkUnitID="{88EB7E9D-6BD5-42B4-A4F4-CE29B24ECBF9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="VFX" ID="{C9A60398-EB6A-4FF7-81FB-3F4A5F9750E1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="VFX" ID="{5EA02A28-146C-453D-8B10-8418DFB1CA4B}" WorkUnitID="{88EB7E9D-6BD5-42B4-A4F4-CE29B24ECBF9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Ambients" ID="{66F341F3-2B49-4F93-BD5A-40144483A3EE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="3D" ID="{F17CE166-FF43-40CA-96CD-F5715A312AF3}" WorkUnitID="{88EB7E9D-6BD5-42B4-A4F4-CE29B24ECBF9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="2D" ID="{5835212B-5C7A-45A1-AA5D-3BE83A8649AB}" WorkUnitID="{88EB7E9D-6BD5-42B4-A4F4-CE29B24ECBF9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI" ID="{B8AB78A2-3964-4DB2-9A6E-9BAF5CC96E06}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{12309788-3C8B-406C-A7EE-A40EDEA9161C}" WorkUnitID="{88EB7E9D-6BD5-42B4-A4F4-CE29B24ECBF9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player_Girl" ID="{854E30A7-F695-4D8D-86BE-A394929F7464}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Girl" ID="{FD6A73C8-D6B2-4C21-BF11-3AD9BA44279A}" WorkUnitID="{88EB7E9D-6BD5-42B4-A4F4-CE29B24ECBF9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Player_Boy" ID="{DB2E0658-9434-4CF0-82EA-6E8CA437376C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Boy" ID="{5080B503-4AE3-42DB-B99E-68FA9F6B74CB}" WorkUnitID="{88EB7E9D-6BD5-42B4-A4F4-CE29B24ECBF9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

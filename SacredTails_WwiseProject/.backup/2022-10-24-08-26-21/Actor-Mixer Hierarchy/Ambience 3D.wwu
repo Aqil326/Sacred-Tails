@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EAD19F6-B5DF-43EA-85E0-CB5387B228CE}" SchemaVersion="103" RootDocumentID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}" ParentDocumentID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience 3D" ID="{8EAD19F6-B5DF-43EA-85E0-CB5387B228CE}" OwnerID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Ambience_MagicTree_Mono" ID="{CE3A958E-9ABD-491E-814C-F604D056D295}" ShortID="1064002949">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Amb_3D" ID="{B22C1138-FFCE-4D00-9885-69C71473C4E1}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience_MagicTree_Mono" ID="{071BC534-6291-4617-A371-7DC65CB6BAAC}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience_MagicTree_Mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="663698948"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience_MagicTree_Mono" ID="{071BC534-6291-4617-A371-7DC65CB6BAAC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambience_Sea_Mono" ID="{A0B7DC45-3537-439C-A844-A99C42FD12BE}" ShortID="1044270101">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Amb_3D" ID="{B22C1138-FFCE-4D00-9885-69C71473C4E1}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience_Sea_Mono" ID="{F07EAD5E-69C2-4D86-B46B-67A8454855C1}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience_Sea_Mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="76222438"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience_Sea_Mono" ID="{F07EAD5E-69C2-4D86-B46B-67A8454855C1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Ambience_Waterfall_Mono" ID="{172C1165-6FBE-4F75-BFAB-1CCCBCCA0729}" ShortID="79299481">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Amb_3D" ID="{B22C1138-FFCE-4D00-9885-69C71473C4E1}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience_Waterfall_Mono" ID="{FBC402D3-A226-4D5A-9D1B-15E5ADCD4D4A}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience_Waterfall_Mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="380406062"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience_Waterfall_Mono" ID="{FBC402D3-A226-4D5A-9D1B-15E5ADCD4D4A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

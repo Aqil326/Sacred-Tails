@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3B24E282-F016-4375-BA73-D1F14742A00C}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="VFX" ID="{3B24E282-F016-4375-BA73-D1F14742A00C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SFX_Battle_Attack_VFX_Armagedon" ID="{548E49C0-A61D-44E4-B876-A5CF791558DE}" ShortID="809115971">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Armagedon" ID="{770F1FCE-8421-46D9-8CA6-48D6B6F63F2B}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Armagedon.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="735333603"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Armagedon" ID="{770F1FCE-8421-46D9-8CA6-48D6B6F63F2B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_AbsolutZero" ID="{44A0D5EC-1783-4E2F-8AD4-9C1433E34ECF}" ShortID="1025809008">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_AbsolutZero" ID="{45E829B0-015B-4156-AFE8-0DD55E04A261}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_AbsolutZero.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="302255630"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_AbsolutZero" ID="{45E829B0-015B-4156-AFE8-0DD55E04A261}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_AquaJet" ID="{C3A3D4A4-5CCE-452E-8350-009B6C105CC3}" ShortID="268831290">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_AquaJet" ID="{FF7A3403-355D-46C2-96A5-83172A2ADC83}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_AquaJet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="170954309"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_AquaJet" ID="{FF7A3403-355D-46C2-96A5-83172A2ADC83}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Blaze" ID="{D57B9739-3EBA-4891-883F-35F1B96ADEBB}" ShortID="1068215750">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Blaze" ID="{9646AE34-AF11-4957-BBC1-1BA2E9F5E766}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Blaze.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="730472761"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Blaze" ID="{9646AE34-AF11-4957-BBC1-1BA2E9F5E766}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Bloom" ID="{386E0619-3620-4C63-8C3A-4BD684BEF3D2}" ShortID="123179623">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Bloom" ID="{314323A4-5951-41A7-9E87-F3EB3DB33E8D}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Bloom.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="776612759"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Bloom" ID="{314323A4-5951-41A7-9E87-F3EB3DB33E8D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Empower" ID="{A1E93F93-28AD-4135-BF8A-F000D78FB211}" ShortID="505692451">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Empower" ID="{EDACDD04-1A67-4380-B455-FBB4B5B4C3CB}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Empower.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="164485103"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Empower" ID="{EDACDD04-1A67-4380-B455-FBB4B5B4C3CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Eruption" ID="{8B277F2F-4206-4856-A8B2-E454C13606D5}" ShortID="812247850">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Eruption" ID="{8B357F23-0F13-464B-8CFD-471478D98713}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Eruption.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="621989006"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Eruption" ID="{8B357F23-0F13-464B-8CFD-471478D98713}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Fire Punch" ID="{8B12D57B-3BEA-453D-9E48-B9302FE02839}" ShortID="625866536">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Fire Punch" ID="{7C7F87C2-C766-453D-85E8-A9C9B7582CD6}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Fire Punch.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="496530222"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Fire Punch" ID="{7C7F87C2-C766-453D-85E8-A9C9B7582CD6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Friendly Fire" ID="{C5B06390-E83C-4F4A-85C2-66358FD67377}" ShortID="565183530">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Friendly Fire" ID="{291EBBD9-BC6F-4FE6-A33E-9354539B6A9E}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Friendly Fire.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="765102876"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Friendly Fire" ID="{291EBBD9-BC6F-4FE6-A33E-9354539B6A9E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Geiser" ID="{8AD0735F-B6C8-4932-BD55-5205F12375F8}" ShortID="462524136">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Geiser" ID="{A1085830-C58A-4B21-BB83-A498E865B245}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Geiser.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="697258642"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Geiser" ID="{A1085830-C58A-4B21-BB83-A498E865B245}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Glare" ID="{1A54EBAF-7082-4963-A121-4EF1F46527A3}" ShortID="738344327">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Glare" ID="{9299C2B3-6B4E-46D2-BC70-E55FA51C70AA}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Glare.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="578405963"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Glare" ID="{9299C2B3-6B4E-46D2-BC70-E55FA51C70AA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Gravity judgement" ID="{E333EDD6-D1FA-455E-8566-B6FB7BF2DCA6}" ShortID="787937625">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Gravity judgement" ID="{38B6625D-04BF-4C03-89B4-AC38D326162F}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Gravity judgement.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="854609029"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Gravity judgement" ID="{38B6625D-04BF-4C03-89B4-AC38D326162F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Gust" ID="{5A4CA950-A76C-4C57-92EA-7FF89389D064}" ShortID="266838253">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Gust" ID="{04FDFD23-3078-458C-98C2-283C355B2E41}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Gust.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="254084276"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Gust" ID="{04FDFD23-3078-458C-98C2-283C355B2E41}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Ignite" ID="{4DCA5ED2-E71B-4FDB-B677-76923F66AA03}" ShortID="197352001">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Ignite" ID="{71435217-DF62-4509-B1DE-C556D5B6D2A2}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Ignite.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="146316177"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Ignite" ID="{71435217-DF62-4509-B1DE-C556D5B6D2A2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Instinct" ID="{1A29F96F-F881-4D4D-8A2E-7E715260C78A}" ShortID="418494092">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Instinct" ID="{524329BB-5203-4B0D-B4CA-A8F1D5D1964E}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Instinct.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="36946776"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Instinct" ID="{524329BB-5203-4B0D-B4CA-A8F1D5D1964E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_ACDC_Volt" ID="{0DE0A29A-5AFC-46C7-91A3-AD02965753DF}" ShortID="275804942">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_ACDC_Volt" ID="{8035D279-9729-4B4E-BDBF-FDC17BE63E7E}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_ACDC_Volt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="656013150"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_ACDC_Volt" ID="{8035D279-9729-4B4E-BDBF-FDC17BE63E7E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Avalanche_Snow" ID="{67F9D2E4-284B-400B-AF59-E4E4E5D11C38}" ShortID="323960613">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Avalanche_Snow" ID="{71DFD00B-8B42-4250-B96F-25A8D0EA2DEC}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Avalanche_Snow.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="52007496"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Avalanche_Snow" ID="{71DFD00B-8B42-4250-B96F-25A8D0EA2DEC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_BlackRay_Cursed" ID="{6C78EBEB-3760-477A-A515-815AEEFDAE84}" ShortID="641030444">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_BlackRay_Cursed" ID="{A0060972-A1D1-45FC-870D-A55E506F49C6}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_BlackRay_Cursed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="90621910"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_BlackRay_Cursed" ID="{A0060972-A1D1-45FC-870D-A55E506F49C6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Boulder_Earth" ID="{B43E1F1C-D8F7-4EDC-A434-7EA677AD5737}" ShortID="660047391">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Boulder_Earth" ID="{1463456C-3E29-4519-8643-A52129CEBCBD}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Boulder_Earth.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="634577689"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Boulder_Earth" ID="{1463456C-3E29-4519-8643-A52129CEBCBD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Discharge_Volt" ID="{9B56A1FD-6D3E-49FA-827A-888577BB163B}" ShortID="10617161">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Discharge_Volt" ID="{FAF3EA7B-0E8D-4626-95FC-F5193DF8E7C0}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Discharge_Volt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="359844668"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Discharge_Volt" ID="{FAF3EA7B-0E8D-4626-95FC-F5193DF8E7C0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Erosion_Earth" ID="{DD36A7B4-0636-4055-BA8E-7351854508BA}" ShortID="499718441">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Erosion_Earth" ID="{7342B16A-C51F-4856-A672-B3AA9DD7BE73}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Erosion_Earth.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="444843099"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Erosion_Earth" ID="{7342B16A-C51F-4856-A672-B3AA9DD7BE73}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_ExtendingBoxingGlove_Mecha" ID="{5942A116-0ABB-4626-A9BA-E9F067245408}" ShortID="231257018">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_ExtendingBoxingGlove_Mecha" ID="{C2A8CF74-98FF-4D1C-B1CA-B9D11F948A40}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_ExtendingBoxingGlove_Mecha.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="766073180"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_ExtendingBoxingGlove_Mecha" ID="{C2A8CF74-98FF-4D1C-B1CA-B9D11F948A40}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Frosbite_Snow" ID="{E3657D98-87A8-461B-9059-E36EE418D6C0}" ShortID="632598225">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Frosbite_Snow" ID="{781B2BDF-7823-406B-A7EA-98C7DAD84492}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Frosbite_Snow.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="809026602"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Frosbite_Snow" ID="{781B2BDF-7823-406B-A7EA-98C7DAD84492}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_GiantSnowFlake_Snow" ID="{EBADC3E6-1AF7-4919-9CF0-B54FB0DF0635}" ShortID="778260339">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_GiantSnowFlake_Snow" ID="{E2CCD672-D0F8-4A99-B6D1-F806DEC6BEE1}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_GiantSnowFlake_Snow.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="793537869"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_GiantSnowFlake_Snow" ID="{E2CCD672-D0F8-4A99-B6D1-F806DEC6BEE1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Hypnosis_Dreamer" ID="{060AC047-CE32-4575-A52A-960AA86739E4}" ShortID="530506620">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Hypnosis_Dreamer" ID="{039B777F-8EA0-441E-99C1-F38BA9F3FAC2}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Hypnosis_Dreamer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="134889120"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Hypnosis_Dreamer" ID="{039B777F-8EA0-441E-99C1-F38BA9F3FAC2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Leaf Dart" ID="{893DD655-9AB9-49FA-939D-BAA04861C3B3}" ShortID="767176942">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Leaf Dart" ID="{889EB992-B1CF-4034-BDD3-8E0ED9D0DBC4}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Leaf Dart.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="773876485"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Leaf Dart" ID="{889EB992-B1CF-4034-BDD3-8E0ED9D0DBC4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Lightning_Volt" ID="{B9798F41-140A-4EFD-834B-EF60046E72BC}" ShortID="904476455">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Lightning_Volt" ID="{DE1489CB-C703-45FC-B8F2-AD2798CBC0B4}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Lightning_Volt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="142887839"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Lightning_Volt" ID="{DE1489CB-C703-45FC-B8F2-AD2798CBC0B4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Lights out" ID="{BE927587-C09D-46FF-B328-8A198E6BCE53}" ShortID="481851804">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Lights out" ID="{88F3E2F9-EED8-4F95-A763-DB2C7EE9122B}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Lights out.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="467687483"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Lights out" ID="{88F3E2F9-EED8-4F95-A763-DB2C7EE9122B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Luminate" ID="{505A4965-DE03-49C1-A292-CCDDCB0BC448}" ShortID="402623622">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Luminate" ID="{B96795AA-079D-46D8-BCFD-7D28BCD8FA84}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Luminate.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1052902558"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Luminate" ID="{B96795AA-079D-46D8-BCFD-7D28BCD8FA84}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Narcolepsy_Dreamer" ID="{B6D13187-D447-4C93-A566-B3F1CA8B7185}" ShortID="580406987">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Narcolepsy_Dreamer" ID="{17CA80D1-DC31-4888-91B0-87FC2B32A7AE}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Narcolepsy_Dreamer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1024012212"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Narcolepsy_Dreamer" ID="{17CA80D1-DC31-4888-91B0-87FC2B32A7AE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Nimbus" ID="{FD62007C-7EB4-4D7B-AD9A-F5F062F6C26F}" ShortID="9211759">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Nimbus" ID="{570BAC56-0FA1-4157-9B78-284D94A0B058}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Nimbus.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="305925938"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Nimbus" ID="{570BAC56-0FA1-4157-9B78-284D94A0B058}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_OceansBlessing" ID="{8B0D0D70-E46D-4AD4-A513-0241D7A73BF2}" ShortID="777015895">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_OceansBlessing" ID="{C0A586FF-EE7E-4F9C-B004-4D77BCF17492}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_OceansBlessing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="375006583"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_OceansBlessing" ID="{C0A586FF-EE7E-4F9C-B004-4D77BCF17492}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Overcharge_Volt" ID="{8327BA60-98F0-49BF-845B-E7D228B38CC8}" ShortID="439810826">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Overcharge_Volt" ID="{4E48A422-8B22-4F6F-9508-E79DB9A995D2}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Overcharge_Volt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="804579943"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Overcharge_Volt" ID="{4E48A422-8B22-4F6F-9508-E79DB9A995D2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_PetalStorm" ID="{F9D47087-3905-48E5-9F7C-498E789B7C5A}" ShortID="540155815">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_PetalStorm" ID="{9311D885-1E64-40B0-83CE-7A73BAA2F705}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_PetalStorm.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="745344359"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_PetalStorm" ID="{9311D885-1E64-40B0-83CE-7A73BAA2F705}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_PillowFight_Dreamer" ID="{39712788-23C2-42FA-BA7E-C513D49EFD4C}" ShortID="483186367">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_PillowFight_Dreamer" ID="{73297E65-3884-4FED-9E3B-9C31E93DB99C}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_PillowFight_Dreamer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="373044959"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_PillowFight_Dreamer" ID="{73297E65-3884-4FED-9E3B-9C31E93DB99C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Plant Prism_Nature" ID="{9D7BF5FD-7BD1-4C2D-968F-5A17814B77B1}" ShortID="589966839">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Plant Prism_Nature" ID="{D8FC25DD-943B-4BE9-9A88-3D056FD0DC20}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Plant Prism_Nature.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1034809539"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Plant Prism_Nature" ID="{D8FC25DD-943B-4BE9-9A88-3D056FD0DC20}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_PocketBigBang" ID="{D5C60B32-8457-40BF-9EB2-59A9B06FADBD}" ShortID="639789490">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_PocketBigBang" ID="{7A046C34-0C10-4736-916D-800C57ED792B}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_PocketBigBang.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="159389610"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_PocketBigBang" ID="{7A046C34-0C10-4736-916D-800C57ED792B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Quake_Earth" ID="{6DD19E21-F1CE-43AE-9C4E-E65E3835AABB}" ShortID="610663943">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Quake_Earth" ID="{3CCBD7F3-E0A8-400F-8339-4D20A116F87C}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Quake_Earth.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="268829307"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Quake_Earth" ID="{3CCBD7F3-E0A8-400F-8339-4D20A116F87C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Recharge_Volt" ID="{85A7E7ED-A302-4862-BB44-EFE9FDE26D7F}" ShortID="167856412">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Recharge_Volt" ID="{1E266062-8665-46D2-9BEF-3D68D4C9D792}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Recharge_Volt.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="498355326"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Recharge_Volt" ID="{1E266062-8665-46D2-9BEF-3D68D4C9D792}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Reject" ID="{499B9B71-2723-4940-8F95-D6AE8ED96CFA}" ShortID="286956576">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Reject" ID="{CA995908-BB97-43E4-86D6-B40B13D21680}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Reject.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="941644897"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Reject" ID="{CA995908-BB97-43E4-86D6-B40B13D21680}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Root_Nature" ID="{38259280-DBC0-48BE-8E57-50D9E4DF6121}" ShortID="908891146">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Root_Nature" ID="{FC26CA43-7EDB-458D-BE23-BB8F5AD5B032}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Root_Nature.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="446117846"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Root_Nature" ID="{FC26CA43-7EDB-458D-BE23-BB8F5AD5B032}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Screwalose_Mecha" ID="{CA636932-C5CE-45C5-82EE-97D13010B1DD}" ShortID="170295766">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Screwalose_Mecha" ID="{47D8F1A6-F189-4A4A-964D-FE2D47CA5462}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Screwalose_Mecha.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="80098323"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Screwalose_Mecha" ID="{47D8F1A6-F189-4A4A-964D-FE2D47CA5462}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Scythe_Cursed" ID="{9CEF5135-E49E-471D-8F9F-79475FAC0EC2}" ShortID="560509229">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Scythe_Cursed" ID="{F2B4EAF8-22D2-4362-B7BD-B25228F644EA}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Scythe_Cursed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="711368982"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Scythe_Cursed" ID="{F2B4EAF8-22D2-4362-B7BD-B25228F644EA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_ShadowStep_Dark" ID="{5151E95B-0792-4C85-81F7-C2F0BEDD04F7}" ShortID="960315571">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_ShadowStep_Dark" ID="{6095C23D-B1F5-410D-8D1B-3FBBFCC6F2D4}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_ShadowStep_Dark.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="234287374"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_ShadowStep_Dark" ID="{6095C23D-B1F5-410D-8D1B-3FBBFCC6F2D4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Siegemode_Mecha" ID="{C11CC23B-2268-4D0A-AF9E-FB8D5872900C}" ShortID="931573003">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Siegemode_Mecha" ID="{BC19990A-9250-4E73-88B3-53D2B51B1435}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Siegemode_Mecha.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="60985868"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Siegemode_Mecha" ID="{BC19990A-9250-4E73-88B3-53D2B51B1435}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Singularity_Light" ID="{E8362E37-142E-46E2-BDB6-ABAA3A2FB8A7}" ShortID="561485708">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Singularity_Light" ID="{A64933FB-2FC6-4928-85AB-F27B2D79A286}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Singularity_Light.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="547822265"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Singularity_Light" ID="{A64933FB-2FC6-4928-85AB-F27B2D79A286}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_SkyStorm_Sky" ID="{8A28DE79-D042-4752-A227-9BAA261EE9B1}" ShortID="958799719">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_SkyStorm_Sky" ID="{68881585-4F1F-4C4B-BA7A-06346D09085F}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_SkyStorm_Sky.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="476311103"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_SkyStorm_Sky" ID="{68881585-4F1F-4C4B-BA7A-06346D09085F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_SnowGrave_Snow" ID="{48931458-5934-475C-96E3-E52A66710B83}" ShortID="118431658">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_SnowGrave_Snow" ID="{D6466952-A27A-414B-8A3F-64603B074DE1}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_SnowGrave_Snow.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="586801181"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_SnowGrave_Snow" ID="{D6466952-A27A-414B-8A3F-64603B074DE1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Splash_Ocean" ID="{2C2096CF-FBCA-4CC3-805B-19D08FCD23D4}" ShortID="88259860">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Splash_Ocean" ID="{939A3ED6-47FC-4789-AC99-16449DA273D0}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Splash_Ocean.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="402048884"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Splash_Ocean" ID="{939A3ED6-47FC-4789-AC99-16449DA273D0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_SweetDreams_Dreamer" ID="{2DD7CBD2-0CA6-4BB8-972C-AEE09EB2AA6E}" ShortID="645699016">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_SweetDreams_Dreamer" ID="{F9F4C567-F164-4EA3-82B5-90427C73D2E8}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_SweetDreams_Dreamer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="70484315"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_SweetDreams_Dreamer" ID="{F9F4C567-F164-4EA3-82B5-90427C73D2E8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_Turbo_Mecha" ID="{C3087BD6-365A-431F-B453-594AA110940C}" ShortID="86292612">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_Turbo_Mecha" ID="{E74B47AE-FB8B-465B-B09B-F147C47293B6}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_Turbo_Mecha.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="893074954"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_Turbo_Mecha" ID="{E74B47AE-FB8B-465B-B09B-F147C47293B6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_VoidPunch_Dark" ID="{25F50A4E-0041-47B1-B82C-9269A91EC8E4}" ShortID="484438003">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_VoidPunch_Dark" ID="{48CA436E-6635-4C8A-BDDC-60FA23C03769}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_VoidPunch_Dark.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="284586190"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_VoidPunch_Dark" ID="{48CA436E-6635-4C8A-BDDC-60FA23C03769}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_Battle_Attack_VFX_WaterEdge_Ocean" ID="{03AC1D73-6C25-45D3-A1FB-E308D3BC1A48}" ShortID="648436581">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_Battle_Attack_VFX_WaterEdge_Ocean" ID="{207ED109-296D-4F81-84E1-889754CB7D96}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_Battle_Attack_VFX_WaterEdge_Ocean.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="79643395"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_Battle_Attack_VFX_WaterEdge_Ocean" ID="{207ED109-296D-4F81-84E1-889754CB7D96}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

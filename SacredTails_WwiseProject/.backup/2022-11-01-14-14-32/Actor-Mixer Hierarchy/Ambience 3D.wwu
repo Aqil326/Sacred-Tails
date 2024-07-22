@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EAD19F6-B5DF-43EA-85E0-CB5387B228CE}" SchemaVersion="103" RootDocumentID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}" ParentDocumentID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}">
+	<AudioObjects>
+		<WorkUnit Name="Ambience 3D" ID="{8EAD19F6-B5DF-43EA-85E0-CB5387B228CE}" OwnerID="{BF0F3F31-A6D9-4755-AF58-B1A68FC27328}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Ambience_MagicTree_Mono" ID="{CE3A958E-9ABD-491E-814C-F604D056D295}" ShortID="1064002949">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="InitialDelay" Type="Real64">
+							<ValueList>
+								<Value>0.2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3B426CDD-C740-4365-BDBA-73AF4EF114A2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="126"/>
+											<Property Name="Min" Type="Real64" Value="-177"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Tree" ID="{37D22289-8089-4092-A6DC-88A5D431C991}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{179A204A-706B-4F80-82DF-9191BE89DD22}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambience_MagicTree_Mono" ID="{071BC534-6291-4617-A371-7DC65CB6BAAC}">
+							<Language>SFX</Language>
+							<AudioFile>Ambience_MagicTree_Mono.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="663698948"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambience_MagicTree_Mono" ID="{071BC534-6291-4617-A371-7DC65CB6BAAC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Sea" ID="{1923BF67-374A-409A-8E78-F9371C4A0C18}" ShortID="412034792">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Sea" ID="{A708532E-A1F6-4B49-95C2-23F43F460A5D}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{179A204A-706B-4F80-82DF-9191BE89DD22}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Amb_Sea_Loop_01" ID="{AB2CBE96-5D02-4F9C-9018-8DDA796EC6AD}" ShortID="316398328">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Sea_Loop_01" ID="{75A384CF-864C-41E4-AABA-F0742642401A}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_Sea_Loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="36190111"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Sea_Loop_01" ID="{75A384CF-864C-41E4-AABA-F0742642401A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_Sea_Loop_02" ID="{F6782231-2B1D-43C2-8F54-5A7AE5A6E8F6}" ShortID="837476872">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Sea_Loop_02" ID="{A7691BA7-1E4C-4832-B484-8C0AAD2632E7}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_Sea_Loop_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="385460749"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Sea_Loop_02" ID="{A7691BA7-1E4C-4832-B484-8C0AAD2632E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_Sea_Loop_03" ID="{45A87ED9-C504-4F64-9514-792015508D39}" ShortID="656419600">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Sea_Loop_03" ID="{6521409F-5444-4F88-BBE7-9EE7705B9EDB}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_Sea_Loop_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="57114458"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Sea_Loop_03" ID="{6521409F-5444-4F88-BBE7-9EE7705B9EDB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_Sea_Loop_04" ID="{FE619B43-9A36-43A5-9665-92B78B512E6E}" ShortID="629257790">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Sea_Loop_04" ID="{9BDAF657-74E3-41B5-A8B2-AEFDFAC85AF8}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_Sea_Loop_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1045524679"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Sea_Loop_04" ID="{9BDAF657-74E3-41B5-A8B2-AEFDFAC85AF8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{DE588ACB-DD45-470B-99D2-BCADBAD84454}"/>
+					</PositioningInfo>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Waterfall" ID="{562CC245-26D9-4CE8-A3A8-A87DD4269353}" ShortID="858683633">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Waterfall" ID="{3DD18471-9CC4-4B1D-8428-B81A54ACE1B5}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{179A204A-706B-4F80-82DF-9191BE89DD22}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Amb_Waterfall_Loop_01" ID="{D09003AA-CA6C-4D06-8D49-BBA7C8F82DD8}" ShortID="869708732">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_Waterfall_Loop_01" ID="{23C9BF9A-E8EB-4D4A-B2A1-14A4F1CA269E}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_Waterfall_Loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="820716297"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_Waterfall_Loop_01" ID="{23C9BF9A-E8EB-4D4A-B2A1-14A4F1CA269E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_WaterStream_Loop_01" ID="{CB48B1BA-F553-4E3E-BE57-6E1744037A03}" ShortID="766133614">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_WaterStream_Loop_01" ID="{22122881-A077-4D3A-A44F-8BD8A0B3B00C}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_WaterStream_Loop_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="925840073"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_WaterStream_Loop_01" ID="{22122881-A077-4D3A-A44F-8BD8A0B3B00C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Temple_Forest" ID="{FA60BB94-E8FC-440C-9F78-564D357488AA}" ShortID="412704332">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Amb_3D" ID="{B22C1138-FFCE-4D00-9885-69C71473C4E1}" WorkUnitID="{61D28B07-9576-4094-8B19-623F668FA2E7}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Ambience" ID="{179A204A-706B-4F80-82DF-9191BE89DD22}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Amb_RustleTree_01" ID="{D46BA373-2723-43A6-A48A-B8CD9358EBEC}" ShortID="49934483">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_RustleTree_01" ID="{0B647BA6-5D31-4A47-8247-C06DA4D13150}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_RustleTree_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="2470125"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_RustleTree_01" ID="{0B647BA6-5D31-4A47-8247-C06DA4D13150}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_RustleTree_02" ID="{42D77DC1-BB00-4AB5-8EEC-67CD030C50B9}" ShortID="946657769">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_RustleTree_02" ID="{72EE75F5-3338-450E-A8F0-EE0C8BEED819}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_RustleTree_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="989506950"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_RustleTree_02" ID="{72EE75F5-3338-450E-A8F0-EE0C8BEED819}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_RustleTree_03" ID="{1BAB4A6C-331E-468D-8DB9-90C3330BD5A4}" ShortID="319621902">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_RustleTree_03" ID="{E0F13F03-11A2-40B1-B5D6-8C90A2BF0F4E}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_RustleTree_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="65159045"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_RustleTree_03" ID="{E0F13F03-11A2-40B1-B5D6-8C90A2BF0F4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_RustleTree_04" ID="{123E9296-88F7-4787-8B09-573317D29EC4}" ShortID="260953386">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_RustleTree_04" ID="{A66C883A-0E8E-4E67-A60E-F35B44840D34}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_RustleTree_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="410336908"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_RustleTree_04" ID="{A66C883A-0E8E-4E67-A60E-F35B44840D34}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Amb_RustleTree_05" ID="{24859BC7-918F-42AB-A77D-621B63F7F99A}" ShortID="90053026">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F62148D-5F11-40D6-80D9-5618FFAC3435}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Amb_RustleTree_05" ID="{3AF875A4-504B-46C5-821B-BE267D96F756}">
+									<Language>SFX</Language>
+									<AudioFile>Amb_RustleTree_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="937541416"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Amb_RustleTree_05" ID="{3AF875A4-504B-46C5-821B-BE267D96F756}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

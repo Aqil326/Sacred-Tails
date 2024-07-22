@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{0ACC10B2-36D1-4884-B66D-1B81C9EDE46F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{2D5B40E7-01B7-446D-8E72-60EA9C126990}" WorkUnitID="{CAAE4479-88F2-4549-AE1E-593FD037F4A3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{97116619-FF28-4F6E-89DF-AA86E2B50EA5}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="MX" ID="{4DD651D0-3D02-4E71-B340-A39B2805C14B}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{2D5B40E7-01B7-446D-8E72-60EA9C126990}" WorkUnitID="{CAAE4479-88F2-4549-AE1E-593FD037F4A3}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
